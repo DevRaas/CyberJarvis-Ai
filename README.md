@@ -104,7 +104,7 @@ An advanced AI-powered assistant designed to enhance productivity, security, and
 
 ---
 
-### 2️⃣ Example Commands
+### Sample Commands
 
 | Command | Action |
 |-----------------------------|----------------------------------|
