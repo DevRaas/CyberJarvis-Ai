@@ -39,7 +39,6 @@ A voice-controlled AI assistant for Windows, featuring AI-powered responses, sys
 - Mic/settings controls
 
 ### 🔒 Privacy & Security
-- API keys stored in `.env` file
 - No data logging
 - Local processing of voice commands
 
