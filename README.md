@@ -1,94 +1,162 @@
-# Jarvis AI Assistant 🎙️🤖
+# CyberJarvis-AI
 
-A voice-controlled AI assistant for Windows, featuring AI-powered responses, system automation, and web integrations.
+CyberJarvis-AI is an advanced AI-powered assistant designed to handle a diverse set of tasks. It can execute web searches, manage system operations, perform cybersecurity functions, and enhance productivity seamlessly.
 
-## 🚀 Features
+## Features
 
-### 🎙️ Voice Command System
-- Wake word detection ("Jarvis")
-- Real-time speech recognition
-- Text-to-speech responses
+### Web & Information Retrieval
+- Wikipedia search for instant summaries
+- YouTube search and direct opening for quick video access
+- Google search with voice command support
+- Retrieve real-time weather information for any location
+- Translate text into multiple languages
+- Open specific websites, including social media, news, and productivity tools
+- AI-powered chatbot for instant Q&A
+- Voice-based search and execution
 
-### 🧠 AI-Powered Intelligence
-- Google Gemini AI integration for:
-  - General knowledge Q&A
-  - Conversational responses
-  - Contextual understanding
-- Wikipedia lookups
-
-### ⚙️ System Controls
-- Shutdown/restart computer
-- Open Task Manager
-- Check system stats (CPU/RAM usage)
-- Take screenshots
-
-### 🌐 Web Integration
-- Open websites (Google, YouTube, etc.)
-- Web searches
-- Password breach checks (Have I Been Pwned API)
-
-### 📅 Utility Functions
-- Tell current time
+### System Operations
 - Open Notepad
-- Hash text (SHA-256)
-- Weather lookup (future update)
+- Shutdown and restart the computer
+- Open system settings
+- Show task manager
+- Display system information
+- Show network status
+- Control system volume and brightness
+- Open and manage running applications
 
-### 🖥️ Desktop GUI
-- Tkinter-based interface
-- Interactive console display
-- Mic/settings controls
+### Cybersecurity Tools
+- Check for data breaches
+- Perform WHOIS and DNS lookups
+- Scan ports on a target system
+- Encrypt and decrypt files
+- Check and manage firewall status
+- Perform malware scans
+- Conduct security audits
+- Display system vulnerabilities
+- Enable and disable firewall
+- Monitor real-time network traffic
+- Identify potential phishing links
 
-### 🔒 Privacy & Security
-- No data logging
-- Local processing of voice commands
+### Productivity & Utilities
+- Take and read notes
+- Set reminders
+- Generate strong passwords
+- Perform calculations
+- Search and read files
+- Create and read QR codes
+- Capture screenshots
+- Retrieve system and network information
+- Open and search files
+- Read text files aloud
+- Manage and organize files
+- Perform voice commands
+- Automate repetitive tasks with AI scripting
+- Create and manage to-do lists
 
-### ⚡ Performance Optimizations
-- Multithreading for responsive UI
-- Async operations for web requests
-- Error handling for offline mode
+## Customization Options
+### Wake Word
+- Customize the activation wake word (e.g., "Jarvis", "Cyber", or any user-defined name).
 
-### 🎚️ Voice Customization
-- Adjustable speech rate
-- Male/female voice selection
-- Volume control
+### Voice Settings
+- Choose between male or female voice output for responses.
+- Adjust speech speed and tone.
 
-### 🔍 Smart Context Handling
-- Follow-up questions
-- Command history
-- Natural language processing
-
+### Appearance
+- Select between Dark Mode and Light Mode for UI preferences.
+- Customize accent colors and font sizes.
 
 
 ## 🛠️ Installation & Usage
 
-### 1️⃣ Download & Run
-1. Download `Jarvis.exe` from the [latest release](https://github.com/DevRaas/Jarvis-ai-assistant/releases).
-2. Double-click to run (Windows only).
-3. Say **"Jarvis"** to activate.
+## **⚙️ Installation**  
 
-> **Note:**
-> - Requires **Windows 10/11**.
-> - Microphone access must be enabled.
-> - Internet connection required for AI features.
+1. **Requirements**:  
+   - Windows 10/11  
+   - Python 3.8+ (if running from source)  
+   - Microphone access  
+
+2. Download `Jarvis.exe` from the [latest release](https://github.com/yourusername/Jarvis-AI-Assistant/releases) and then run The .exe file
+   ```bash
+   CyberJarvis-AI.exe  # Double-click to launch
+   ```
+   *(Say your wake word - default: "Jarvis")*  
+
+3. **First-Time Setup**:  
+   - Configure API keys in settings "Type Open Settings":  
+     ```
+       "google_gemini_ai_key",
+       "openweather_key"
+     ```
+
+
+**Note:**
+- Requires Windows 10/11.
+- Microphone access must be enabled.
+- Internet connection required for AI features.
 
 ### 2️⃣ Example Commands
-| Command                                | Action                                |
-|----------------------------------------|---------------------------------------|
-| "Jarvis, Wikipedia Python"             | Fetches Python summary from Wikipedia |
-| "Open Google"                          | Launches browser to google.com        |
-| "Shutdown in 5 minutes"                | Initiates timed shutdown              |
-| "Check breaches for email@example.com" | Verifies breached accounts            |
-| "What's 15% of 200?"                   | Calculates percentage                 |
-| "Take screenshot"                      | Captures screen and saves image       |
+
+| Command | Action |
+|-----------------------------|----------------------------------|
+| "Seach Python in Wikipedia " | Fetches Python summary from Wikipedia |
+| "Open Google" | Launches browser to google.com |
+| "Shutdown in 5 minutes" | Initiates timed shutdown |
+| "Check breaches for email@gmail.com" | Verifies breached accounts |
+| "Take screenshot" | Captures screen and saves image |
+| "Scan ports for example.com" | Scans open ports on example.com |
+| "Encrypt file C:\Users\example.txt" | Encrypts the specified file |
+| "Generate password length 16" | Creates a strong 16-character password |
+| "Create QR code for https://google.com" | Generates a QR code for a URL |
+| "Translate Hello to French" | Translates 'Hello' to French |
+| "Open Notepad" | Launches Notepad |
+| "Set reminder Buy groceries after 120 minutes " | Sets a reminder after 2 hours |
+| "Show firewall status" | Displays current firewall settings |
+| "Disable firewall" | Turns off firewall protection |
+| "Perform security audit" | Scans system for security vulnerabilities |
+| "Search files for report.pdf" | Finds a file named report.pdf |
+| "Calculate 25 * 8" | Performs arithmetic calculation |
+| "Open Task Manager" | Launches Task Manager |
+
+## 🔧 APIs Required
+
+CyberJarvis-AI requires the following APIs for its features:
+
+1. **Gemini AI (for AI-powered tasks)**
+   - API Documentation: [https://ai.google.dev/](https://ai.google.dev/)
+
+2. **OpenWeather API (for real-time weather updates)**
+   - API Documentation: [https://openweathermap.org/api](https://openweathermap.org/api)
 
 
 ## 🛠️ Troubleshooting
+
 - **App not responding?** Run as administrator.
 - **Mic not working?** Check privacy settings in Windows.
 - **Internet issues?** Ensure network access for API usage.
+- **Wake word not detected?** Increase microphone sensitivity in system settings.
 
 ## 📦 Download
-Download the latest EXE: **[Jarvis-AI-Assistant Releases](https://github.com/cha/Jarvis-AI-Assistant/releases)**
 
----
+Download the latest EXE: **[Jarvis-AI-Assistant Releases](https://github.com/yourusername/Jarvis-AI-Assistant/releases)**
+
+## 🤝 Contributions
+
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+Developed by **DevRass(Roshan Ajith)**
+
+
+
+
+
+
+
+
+
 
