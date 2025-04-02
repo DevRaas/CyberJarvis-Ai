@@ -16,6 +16,10 @@ CyberJarvis-AI is an advanced AI-powered assistant designed to handle a diverse 
 ██   ██║██╔══██║██╔══██╗╚██╗ ██╔╝██║╚════██║╚════╝██╔══██║██║
 ╚█████╔╝██║  ██║██║  ██║ ╚████╔╝ ██║███████║      ██║  ██║██║
  ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚═╝╚══════╝      ╚═╝  ╚═╝╚═╝
+                                                             
+
+                                                             
+ 
                                                                                                       
 An advanced AI-powered assistant designed to enhance productivity, security, and system management with voice and text commands.
 
