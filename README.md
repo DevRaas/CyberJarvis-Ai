@@ -164,7 +164,7 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-Developed by **Roshan Ajith[DevRaas](https://github.com/DevRaas**
+Developed by **Roshan Ajith[DevRaas](https://github.com/DevRaas)**
 
 ---
 
