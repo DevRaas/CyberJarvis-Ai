@@ -69,20 +69,25 @@ An advanced AI-powered assistant designed to enhance productivity, security, and
 - 🤖 Automate repetitive tasks with AI scripting  
 - ✅ Create and manage to-do lists  
 
+![Homepage](images/image.png) 
+
 ---
 
 ## ⚙️ Customization Options
 
 ### 🔊 Wake Word
 - Customize the activation wake word (e.g., "Jarvis", "Cyber", or any user-defined name).  
+![Wake Word](images/settings2.png)  
 
 ### 🎙️ Voice Settings
 - Choose between male or female voice output for responses.  
 - Adjust speech speed and tone.  
+![Voice Settings](images/settings1.png)
 
 ### 🎨 Appearance
 - Select between Dark Mode and Light Mode for UI preferences.  
 - Customize accent colors and font sizes.  
+![Appearance (Dark/Light Mode)](images/settings4.png)  
 
 ---
 
@@ -107,6 +112,7 @@ An advanced AI-powered assistant designed to enhance productivity, security, and
        "google_gemini_ai_key",
        "openweather_key"
      ```
+     ![API Configuration](images/settings3.png)  
 ---
 
 **Note:**
@@ -138,6 +144,8 @@ An advanced AI-powered assistant designed to enhance productivity, security, and
 | "Search files for report.pdf" | Finds a file named report.pdf |
 | "Calculate 25 * 8" | Performs arithmetic calculation |
 | "Open Task Manager" | Launches Task Manager |
+
+![Sample Commands](images/sample.png) 
 
 ---
 
