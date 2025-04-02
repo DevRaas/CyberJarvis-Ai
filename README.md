@@ -83,7 +83,7 @@ An advanced AI-powered assistant designed to enhance productivity, security, and
    - Python 3.8+ (if running from source)  
    - Microphone access  
 
-2. Download `Jarvis.exe` from the [latest release](https://github.com/yourusername/Jarvis-AI-Assistant/releases) and then run The .exe file
+2. Download `Jarvis.exe` from the [latest release](https://github.com/DevRaas/CyberJarvis-AI/releases) and then run The .exe file
    ```bash
    CyberJarvis-AI.exe  # Double-click to launch
    ```
@@ -152,7 +152,7 @@ CyberJarvis-AI requires the following APIs for its features:
 
 ## 📦 Download
 
-Download the latest EXE: **[Jarvis-AI-Assistant Releases](https://github.com/yourusername/Jarvis-AI-Assistant/releases)**
+Download the latest EXE: **[Jarvis-AI-Assistant Releases](https://github.com/DevRaas/CyberJarvis-AI/releases)**
 
 ---
 
@@ -164,7 +164,7 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-Developed by **DevRass(Roshan Ajith)**
+Developed by **Roshan Ajith[DevRaas](https://github.com/DevRaas**
 
 ---
 
