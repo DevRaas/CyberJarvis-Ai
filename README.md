@@ -57,32 +57,12 @@ A voice-controlled AI assistant for Windows, featuring AI-powered responses, sys
 - Command history
 - Natural language processing
 
-## 📂 Repository Structure
 
-```
-Jarvis-AI-Assistant/
-├── .gitignore          # Ignore all except exe & assets
-├── README.md           # Project documentation
-├── Jarvis.exe          # Compiled executable
-└── assets/             # Screenshots & demo GIFs
-    └── demo.gif
-```
-
-### `.gitignore`
-```gitignore
-# Ignore all files
-*
-!Jarvis.exe
-!README.md
-!.gitignore
-!assets/
-!assets/*
-```
 
 ## 🛠️ Installation & Usage
 
 ### 1️⃣ Download & Run
-1. Download `Jarvis.exe` from the [latest release](https://github.com/yourusername/Jarvis-AI-Assistant/releases).
+1. Download `Jarvis.exe` from the [latest release](https://github.com/DevRaas/Jarvis-ai-assistant/releases).
 2. Double-click to run (Windows only).
 3. Say **"Jarvis"** to activate.
 
@@ -108,9 +88,7 @@ Jarvis-AI-Assistant/
 - **Internet issues?** Ensure network access for API usage.
 
 ## 📦 Download
-Download the latest EXE: **[Jarvis-AI-Assistant Releases](https://github.com/yourusername/Jarvis-AI-Assistant/releases)**
+Download the latest EXE: **[Jarvis-AI-Assistant Releases](https://github.com/cha/Jarvis-AI-Assistant/releases)**
 
 ---
-
-Let me know if you'd like modifications or additions! 🚀
 
