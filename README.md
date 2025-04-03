@@ -170,6 +170,12 @@ CyberJarvis-AI requires the following APIs for its features:
 
 ---
 
+## ⚠️ Security Notice
+- This EXE is unsigned. Windows may flag it as "unrecognized app".
+- To run: Click "More info" → "Run anyway" if you trust the source.
+
+---
+
 ## 📦 Download
 
 Download the latest EXE: **[Jarvis-AI-Assistant Releases](https://github.com/DevRaas/CyberJarvis-AI/releases)**
