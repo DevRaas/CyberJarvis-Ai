@@ -1,0 +1,9 @@
+{
+    "voice_type": 0,
+    "wake_word": "jarvis",
+    "speech_rate": 180,
+    "theme": "dark",
+    "gemini_api_key": "",
+    "auto_listen": true,
+    "weather_api_key": ""
+}
